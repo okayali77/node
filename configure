@@ -16,7 +16,7 @@ exec python "$0" "$@"
 ]
 del _
 
-import sys
+import system
 from distutils.spawn import find_executable
 
 print('Node configure: Found Python {0}.{1}.{2}...'.format(*sys.version_info))
